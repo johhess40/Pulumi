@@ -1,0 +1,31 @@
+rgs:
+  - rg:
+      friendly: "rgalpha"
+      name: "rg-netpulumi-westus2"
+      location: "WestUS2"
+
+networks:  
+  - net:
+      friendly: "vnetalpha"
+      name: "vnet-one-westus2"
+      addspace: "10.0.0.0/18"
+      rgname: "rg-netpulumi-westus2"
+      location: "WestUS2"
+  - net:
+      friendly: "vnetbravo"
+      name: "vnet-two-westus2"
+      addspace: "10.0.64.0/18"
+      rgname: "rg-netpulumi-westus2"
+      location: "WestUS2"
+  - net:
+      friendly: "vnetcharlie"
+      name: "vnet-tree-westus2"
+      addspace: "10.0.128.0/18"
+      rgname: "rg-netpulumi-westus2"
+      location: "WestUS2"
+  - net:
+      friendly: "vnetdelta"
+      name: "vnet-fowr-westus2"
+      addspace: "10.0.192.0/18"
+      rgname: "rg-netpulumi-westus2"
+      location: "WestUS2"  
